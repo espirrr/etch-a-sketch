@@ -1,0 +1,30 @@
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+#gridContainer {
+    border: 3px solid rgb(0, 0, 0);
+    
+    display: flex;
+    flex-direction: column;
+    
+    height: 500px;
+    width: 500px;
+
+}
+
+.row {
+    display: flex;
+    height: 100%;
+    margin: 0;
+}
+
+.column {
+    border: 0.01px solid rgb(0, 0, 0);
+    width: 100%;
+}
